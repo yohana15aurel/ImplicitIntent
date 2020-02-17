@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/website_edittext"
+            android:layout_width="330dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="50dp"/>
+
+        <Button
+            android:id="@+id/open_website_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Open Website"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="35dp"
+            android:onClick="openWebsite"/>
+
+        <EditText
+            android:id="@+id/location_edittext"
+            android:layout_width="330dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="30dp"/>
+
+        <Button
+            android:id="@+id/open_location_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Open Location"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="35dp"
+            android:onClick="openLocation"/>
+
+        <EditText
+            android:id="@+id/share_edittext"
+            android:layout_width="330dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="30dp"/>
+
+        <Button
+            android:id="@+id/share_text_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Share This Text"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="35dp"
+            android:onClick="shareText"/>
+
+        <ImageView
+            android:id="@+id/image_view"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:scaleType="centerCrop"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/ic_image_black_24dp"/>
+
+        <Button
+            android:id="@+id/capture_image_btn"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="TAKE A PICTURE"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"/>
+
+        <Button
+            android:id="@+id/btnRotate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ROTATE"
+            android:layout_gravity="center"/>
+
+
+    </LinearLayout>
+
+
+
+</ScrollView>
